@@ -27,6 +27,15 @@ public class IncredibleCalculator {
             System.out.println("El resultado es: "+resultado);
                     break;
             case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
+             int n1;
+            int n2;
+            int resultado;
+            System.out.println("Indique el primer número");
+            n1=leerEnteroEntrada();
+            System.out.println("Indique el segundo número");
+            n1=leerEnteroEntrada();
+                resultado=n1-n1;
+            System.out.println("El resultado es: "+resultado);
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
                     break;
