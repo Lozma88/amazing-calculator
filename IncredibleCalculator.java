@@ -29,7 +29,13 @@ public class IncredibleCalculator {
                  system.out.println(resultado);
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
+                a=leerEnteroEntrada;
+                b=leerEnteroEntrada;
+                resultado=a*b;
+                system.out.println(resultado);
+
                     break;
+
             case 4: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división entera.
                     break;
             case 5: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división con decimales.
