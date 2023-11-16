@@ -17,30 +17,31 @@ public class IncredibleCalculator {
 
         switch (opcion) {
             case 1: //Sumar. Debes leer dos numeros enteros de entrada e imprimir su suma
-                a=leerEnteroEntrada;
-                b=leerEnteroEntrada;
-                resultado=a+b;
+                a=leerEnteroEntrada();
+                b=leerEnteroEntrada();
+                system.out.println(suma(int a, int b));
                 system.out.println(resultado);
                     break;
             case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
-                a=leerEnteroEntrada;
-                b=leerEnteroEntrada;
-                resultado=a-b;
-                 system.out.println(resultado);
+                a=leerEnteroEntrada();
+                b=leerEnteroEntrada();
+                system.out.println(resta(int a, int b));
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
-                a=leerEnteroEntrada;
-                b=leerEnteroEntrada;
-                resultado=a*b;
-                system.out.println(resultado);
+                a=leerEnteroEntrada();
+                b=leerEnteroEntrada();
+                system.out.println(multiplicacion(int a, int b));
                     break;
 
             case 4: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división entera.
-                a=leerEnteroEntrada;
-                b=leerEnteroEntrada;
+                a=leerEnteroEntrada();
+                b=leerEnteroEntrada();
                 system.out.println(divisionEntera(int a, int b));
                     break;
             case 5: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división con decimales.
+                a=leerEnteroEntrada();
+                b=leerEnteroEntrada();
+                system.out.println(divisionConDecimales(int a, int b));
                     break;
 
         }
